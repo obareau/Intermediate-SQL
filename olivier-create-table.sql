@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS Student(
     Email TEXT NOT NULL UNIQUE
 );
 
--- create a table for Professor EmployeeId, FirstName, lastName, Email)
+-- create a table for Professor EmployeeId, FirstName, lastName, Email) test
