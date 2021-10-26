@@ -9,3 +9,10 @@ CREATE TABLE IF NOT EXISTS Student(
 );
 
 -- create a table for Professor EmployeeId, FirstName, lastName, Email) 
+
+CREATE TABLE IF NOT EXISTS Professor(
+    EmployeeId INTEGER PRIMARY KEY,
+    FirstName TEXT NOT NULL,
+    Lastname TEXT NOT NULL,
+    Email TEXT NOT NULL UNIQUE
+    );
