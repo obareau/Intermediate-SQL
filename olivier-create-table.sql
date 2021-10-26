@@ -13,6 +13,6 @@ CREATE TABLE IF NOT EXISTS Student(
 CREATE TABLE IF NOT EXISTS Professor(
     EmployeeId INTEGER PRIMARY KEY,
     FirstName TEXT NOT NULL,
-    Lastname TEXT NOT NULL,
+    LastName TEXT NOT NULL,
     Email TEXT NOT NULL UNIQUE
-    );
+);
